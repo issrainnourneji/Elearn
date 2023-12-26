@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-img {
+
+  width: 100%;
+}
+.imgCourses{
+  width: 90%;
+  height: 50%;
+  padding-bottom: 15px;
+
+}
+
+
+.title {
+  font-size: 50px;
+  text-align: left;
+  margin-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.title1{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.btn{
+  font-size: 15px;
+  float: right;
+  margin-right: 60px;
+  width: 120px;
+  height: 30px;
+  background-color: rgb(226, 43, 220);
+  border-radius: 40px;
+  color: white;
+  text-align: center; /* Centre le texte horizontalement */
+  line-height: 4px;
+  font-weight: bold;
+}
+.btn1{
+  float: center;
+  width: 200px;
+  height: 30px;
+  background-color: rgb(226, 43, 220);
+  border-radius: 10px;
+  color: white;
+  text-align: center; /* Centre le texte horizontalement */
+  line-height: 4px;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+.footer{
+  background-color: rgb(238, 177, 87);
+  margin-right: 200px;
+  margin-left: 200px;
+  border-radius: 50px;
+  padding-bottom: 20px;
+}
+.input{
+  width: 350px;
+  text-align: left;
+  border-radius: 20px;
+  background-color: rgb(232, 241, 236);
+  color: rgb(106, 109, 113);
+
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.input1{
+  padding-bottom: 40px;
+  font-size: 10px;
+}
+.text{
+  margin-right: 300px;
+ font-size: 10px;
+ padding-bottom: 5px;
+ font-weight: bold;
+}
+.price{
+ color: #b65ea4;
+ padding-bottom: 60px;
+}
+.courses{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+
+
+
