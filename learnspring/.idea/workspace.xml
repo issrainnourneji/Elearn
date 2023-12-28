@@ -1,39 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd28b54c-239d-4d4c-881e-b2bb6a621e94" name="Default Changelist" comment="" />
+    <list default="true" id="613af148-96b2-4b41-a7cc-3f350ac591d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/controllers/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/entities/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/repositories/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/services/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/services/ICourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/controllers/DepartementRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/entities/Departement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/entities/DepartementDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/entities/Etudiant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/entities/Option.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/repositories/DepartementRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/services/DepartementServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/services/IDepartementService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tn/esprit/spring/khaddem/DepartmentImplServiceTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="2a7We3DdE82Q3nmb8rx5Lxd2dMP" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2EtY3CS8nM0hT6hzxnmlkSLs5CD" />
   <component name="ProjectViewState">
-    <option name="foldersAlwaysOnTop" value="false" />
-    <option name="showExcludedFiles" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ikram/Projet-devops" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/starinfo/Desktop/devopschedi/5TWIN6-G5-Kaddem&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ba4fd5de66a19227511be21b9e42c324&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="tn.esprit.spring.khaddem.entities" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="KhaddemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="khaddem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.spring.khaddem.KhaddemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fd28b54c-239d-4d4c-881e-b2bb6a621e94" name="Default Changelist" comment="" />
-      <created>1703670192902</created>
+      <changelist id="613af148-96b2-4b41-a7cc-3f350ac591d8" name="Changes" comment="" />
+      <created>1663416149323</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1703670192902</updated>
-      <workItem from="1703670194816" duration="121000" />
-      <workItem from="1703670925618" duration="58000" />
+      <updated>1663416149323</updated>
+      <workItem from="1663416151988" duration="1247000" />
+      <workItem from="1663520110375" duration="1043000" />
+      <workItem from="1663536983253" duration="1000000" />
+      <workItem from="1663573496296" duration="9046000" />
+      <workItem from="1663713956529" duration="7558000" />
+      <workItem from="1663865676860" duration="2280000" />
+      <workItem from="1663868016580" duration="11735000" />
+      <workItem from="1664021347193" duration="1273000" />
+      <workItem from="1664134919461" duration="8566000" />
+      <workItem from="1664301178976" duration="42000" />
+      <workItem from="1664302040483" duration="10737000" />
+      <workItem from="1664442396756" duration="1836000" />
+      <workItem from="1664467064116" duration="66000" />
+      <workItem from="1664782461756" duration="2392000" />
+      <workItem from="1665343206618" duration="5789000" />
+      <workItem from="1665601960166" duration="96000" />
+      <workItem from="1665649003518" duration="5126000" />
+      <workItem from="1665675689481" duration="5835000" />
+      <workItem from="1666003196076" duration="1106000" />
+      <workItem from="1666019625679" duration="439000" />
+      <workItem from="1666168163371" duration="988000" />
+      <workItem from="1666171660747" duration="4269000" />
+      <workItem from="1666270595881" duration="75000" />
+      <workItem from="1666373644685" duration="18358000" />
+      <workItem from="1666611026975" duration="251000" />
+      <workItem from="1666771594289" duration="4948000" />
+      <workItem from="1666969071462" duration="9058000" />
+      <workItem from="1667247301805" duration="908000" />
+      <workItem from="1667292495071" duration="4089000" />
+      <workItem from="1667375073240" duration="6598000" />
+      <workItem from="1667491415717" duration="12000" />
+      <workItem from="1667816716469" duration="17932000" />
+      <workItem from="1667938129886" duration="4175000" />
+      <workItem from="1668067335581" duration="2574000" />
+      <workItem from="1668336545916" duration="68000" />
+      <workItem from="1668511924082" duration="3637000" />
+      <workItem from="1668586288915" duration="6239000" />
+      <workItem from="1669033682693" duration="54000" />
+      <workItem from="1669054180022" duration="684000" />
+      <workItem from="1669145591596" duration="611000" />
+      <workItem from="1669192710495" duration="15008000" />
+      <workItem from="1669735177756" duration="832000" />
+      <workItem from="1669756367894" duration="20269000" />
+      <workItem from="1670359946147" duration="3423000" />
+      <workItem from="1670497972834" duration="6431000" />
+      <workItem from="1671125636100" duration="3572000" />
+      <workItem from="1671795650252" duration="7370000" />
+      <workItem from="1672248406386" duration="5544000" />
+      <workItem from="1672602899179" duration="222000" />
+      <workItem from="1672603238506" duration="2605000" />
+      <workItem from="1672683166275" duration="7172000" />
+      <workItem from="1673092477273" duration="9607000" />
+      <workItem from="1673549473786" duration="1221000" />
+      <workItem from="1673984857059" duration="5668000" />
+      <workItem from="1674238379201" duration="11384000" />
+      <workItem from="1674572861386" duration="9713000" />
+      <workItem from="1675068322001" duration="670000" />
+      <workItem from="1675074814244" duration="328000" />
+      <workItem from="1675077131226" duration="2085000" />
+      <workItem from="1675150886384" duration="7560000" />
+      <workItem from="1675233400760" duration="1225000" />
+      <workItem from="1675251024946" duration="19000" />
+      <workItem from="1675411257323" duration="115000" />
+      <workItem from="1675420112916" duration="3741000" />
+      <workItem from="1676101470096" duration="5092000" />
+      <workItem from="1676378638079" duration="120000" />
+      <workItem from="1676391941497" duration="5911000" />
+      <workItem from="1676622646405" duration="36000" />
+      <workItem from="1677312535432" duration="4186000" />
+      <workItem from="1677592229629" duration="5591000" />
+      <workItem from="1677831593020" duration="677000" />
+      <workItem from="1677842015928" duration="275000" />
+      <workItem from="1678128214864" duration="16000" />
+      <workItem from="1678521324439" duration="5382000" />
+      <workItem from="1678566257859" duration="44000" />
+      <workItem from="1678713768144" duration="36000" />
+      <workItem from="1678883725343" duration="1991000" />
+      <workItem from="1681218907790" duration="790000" />
+      <workItem from="1681667215994" duration="296000" />
+      <workItem from="1681902306174" duration="5771000" />
+      <workItem from="1683114508230" duration="165000" />
+      <workItem from="1683116214796" duration="333000" />
+      <workItem from="1683207008220" duration="639000" />
+      <workItem from="1683483000708" duration="207000" />
+      <workItem from="1683483235333" duration="33000" />
+      <workItem from="1683485252966" duration="630000" />
+      <workItem from="1683722595772" duration="5617000" />
+      <workItem from="1684262462886" duration="1249000" />
+      <workItem from="1685548513360" duration="25000" />
+      <workItem from="1692649457445" duration="1322000" />
+      <workItem from="1692690147072" duration="742000" />
+      <workItem from="1692904053373" duration="85000" />
+      <workItem from="1694877447023" duration="617000" />
+      <workItem from="1695624975264" duration="312000" />
+      <workItem from="1700150555020" duration="13177000" />
+      <workItem from="1700180597401" duration="663000" />
+      <workItem from="1700304291227" duration="10239000" />
+      <workItem from="1703670456784" duration="188000" />
+      <workItem from="1703670789015" duration="103000" />
+      <workItem from="1703672831278" duration="3184000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
