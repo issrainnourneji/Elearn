@@ -1,4 +1,4 @@
-package tn.esprit.spring.khaddem.entities;
+package tn.esprit.spring.elearn.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -21,9 +21,9 @@ public class Course implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idCourse;
-    private String Picture;
-    private String Title;
-    private Integer Price;
+    private String picture;
+    private String title;
+    private Integer price;
 
 
 }

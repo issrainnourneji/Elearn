@@ -8,11 +8,11 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class CourseServiceService {
-  urlAdd='http://localhost:8089/Kaddem/departement/add-departement';
-  urlApi = 'http://localhost:8089/Kaddem/departement/retrieve-all-departements';
-  urlDel='http://localhost:8080/departement/delete';
-  urlById =  'http://localhost:8089/Kaddem/departement/retrieve-departement';
-  urlup='http://localhost:8089/Kaddem/departement/update-departement';
+  urlAdd='http://localhost:8089/Course/add';
+  urlApi = 'http://localhost:8089/Course/all';
+  urlDel='http://localhost:8089/Course/delete';
+  urlById =  'http://localhost:8089/Course/get';
+  urlup='http://localhost:8089/Course/update';
   Course=[];
   constructor(private http: HttpClient) { }
   getData():Observable<Course[]> {

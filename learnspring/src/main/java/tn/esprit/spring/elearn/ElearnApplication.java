@@ -1,4 +1,4 @@
-package tn.esprit.spring.khaddem;
+package tn.esprit.spring.elearn;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class KhaddemApplication {
+public class ElearnApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(KhaddemApplication.class, args);
+        SpringApplication.run(ElearnApplication.class, args);
     }
 
 }

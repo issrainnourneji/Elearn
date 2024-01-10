@@ -1,9 +1,9 @@
-package tn.esprit.spring.khaddem.controllers;
+package tn.esprit.spring.elearn.controllers;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import tn.esprit.spring.khaddem.entities.Course;
-import tn.esprit.spring.khaddem.services.CourseServiceImpl;
+import tn.esprit.spring.elearn.entities.Course;
+import tn.esprit.spring.elearn.services.CourseServiceImpl;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ import java.util.List;
 public class CourseController {
     private final CourseServiceImpl courseService;
     @PostMapping("/add")
-    public Course addOrupdateCource (@RequestBody Course course){
+    public Course addCource (@RequestBody Course course){
         return  courseService.addorupCourse(course);
     }
 
@@ -26,6 +26,16 @@ public class CourseController {
     @ResponseBody
     public Course retrieveCourse(@PathVariable("id") Integer idCourse) {
         return courseService.retrieveCourse(idCourse);
+    }
+
+    @PutMapping("/update")
+    public Course updateCource (@RequestBody Course course){
+        return  courseService.addorupCourse(course);
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public  void  deleteCourse (@PathVariable("id") Integer idCourse){
+        courseService.DeleteCourse(idCourse);
     }
 
 }

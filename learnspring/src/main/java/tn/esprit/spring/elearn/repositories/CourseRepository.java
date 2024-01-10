@@ -1,7 +1,7 @@
-package tn.esprit.spring.khaddem.repositories;
+package tn.esprit.spring.elearn.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import tn.esprit.spring.khaddem.entities.Course;
+import tn.esprit.spring.elearn.entities.Course;
 
 public interface CourseRepository extends JpaRepository<Course,Integer> {
 }
