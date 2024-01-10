@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="613af148-96b2-4b41-a7cc-3f350ac591d8" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/add-course/add-course.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/add-course/add-course.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/add-course/add-course.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/add-course/add-course.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/list-courses/list-courses.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/list-courses/list-courses.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Elearn/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Elearn/src/app/app.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/elearn/controllers/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/elearn/controllers/CourseController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

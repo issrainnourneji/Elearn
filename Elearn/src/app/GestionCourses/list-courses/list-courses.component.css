@@ -11,5 +11,30 @@
 }
 .price{
   color: #b65ea4;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
  }
+ .btn{
+  font-size: 15px;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(203, 90, 160);
+  border-radius: 40px;
+  color: white;
+  text-align: center; /* Centre le texte horizontalement */
+  line-height: 4px;
+  font-weight: bold;
+}
+ .btn1{
+  float: center;
+  margin-top: 30px;
+  width: 200px;
+  height: 30px;
+  background-color: rgb(213, 43, 207);
+  border-radius: 10px;
+  color: white;
+  text-align: center; /* Centre le texte horizontalement */
+  line-height: 4px;
+  font-weight: bold;
+  font-size: 15px;
+
+}

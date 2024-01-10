@@ -1,0 +1,14 @@
+.btn{
+  font-size: 15px;
+  float: center;
+  margin-right: 60px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(213, 43, 207);
+  border-radius: 40px;
+  color: white;
+  text-align: center; /* Centre le texte horizontalement */
+  line-height: 4px;
+  font-weight: bold;
+}
+
