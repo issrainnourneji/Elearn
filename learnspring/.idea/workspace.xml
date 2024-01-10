@@ -6,16 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="613af148-96b2-4b41-a7cc-3f350ac591d8" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/KhaddemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/elearn/ElearnApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/controllers/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/elearn/controllers/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/entities/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/elearn/entities/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/repositories/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/elearn/repositories/CourseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/services/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/elearn/services/CourseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/khaddem/services/ICourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/elearn/services/ICourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/elearn/controllers/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/spring/elearn/controllers/CourseController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +224,7 @@
       <workItem from="1703670789015" duration="103000" />
       <workItem from="1703672831278" duration="3184000" />
       <workItem from="1704878348630" duration="537000" />
-      <workItem from="1704879031061" duration="1867000" />
+      <workItem from="1704879031061" duration="3642000" />
     </task>
     <servers />
   </component>

@@ -7,6 +7,8 @@ import tn.esprit.spring.elearn.services.CourseServiceImpl;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*", allowedHeaders = "*")
+@RequestMapping("")
 @AllArgsConstructor
 @RestController
 public class CourseController {

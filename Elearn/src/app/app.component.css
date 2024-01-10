@@ -32,12 +32,7 @@
   padding-bottom: 40px;
   font-weight: bold;
 }
-.imgCourses{
-  width: 90%;
-  height: 50%;
-  padding-bottom: 15px;
 
-}
 
 
 .title {
@@ -125,15 +120,8 @@
  padding-bottom: 5px;
  font-weight: bold;
 }
-.price{
- color: #b65ea4;
- padding-bottom: 60px;
-}
-.courses{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
+
+
 
 
 

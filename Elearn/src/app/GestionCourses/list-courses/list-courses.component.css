@@ -1,0 +1,15 @@
+.courses{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.imgCourses{
+  width: 90%;
+  height: 50%;
+  padding-bottom: 15px;
+
+}
+.price{
+  color: #b65ea4;
+  padding-bottom: 60px;
+ }

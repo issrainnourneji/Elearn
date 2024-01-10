@@ -1,1 +1,39 @@
-<p>add-course works!</p>
+<form [formGroup]="reactiveForm" >
+
+  <div class="col-sm-12 col-xl-10">
+      <div class="bg-light rounded h-100 p-4">
+    <h4 >Picture</h4>
+    <div class="mt-6">
+        <div>
+            <input type="text"formControlName="picture" class="form-control" name="picture"  id="picture">
+        </div>
+        <div [ngStyle]="{'color':'red'}"  *ngIf="picture?.errors?.['required'] && picture?.touched"> Picture is required</div>
+
+    </div >
+</div>
+<div class="bg-light rounded h-100 p-4">
+  <h4 >Title</h4>
+  <div class="mt-6">
+      <div>
+          <input type="text"formControlName="title" class="form-control" name="title"  id="title">
+      </div>
+      <div [ngStyle]="{'color':'red'}"  *ngIf="title?.errors?.['required'] && title?.touched"> Title is required</div>
+
+  </div >
+</div>
+<div class="bg-light rounded h-100 p-4">
+  <h4 >Price</h4>
+  <div class="mt-6">
+      <div>
+          <input type="number"formControlName="price" class="form-control" name="price"  id="price">
+      </div>
+      <div [ngStyle]="{'color':'red'}"  *ngIf="price?.errors?.['required'] && price?.touched"> price is required</div>
+
+  </div >
+</div>
+
+<button type="submit" class="btn btn-primary" (click)="Add()" >Ajouter</button>
+  </div>
+</form>
+
+
