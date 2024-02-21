@@ -32,6 +32,16 @@ export class AddCourseComponent implements OnInit {
     })
   }
 
+  onSelectFile(){
+    // if (event.target.files.length>0)
+    // {
+    //   const file = event.target.files[0];
+    //   this.userfile=file;
+    //   this.f['profile'].setValue(file);
+    // }
+
+  }
+
   get idCourse(){
     return this.reactiveForm.get('idCourse')
   }

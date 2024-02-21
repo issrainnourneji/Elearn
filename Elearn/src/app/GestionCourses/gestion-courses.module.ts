@@ -6,12 +6,16 @@ import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ListCoursesComponent } from './list-courses/list-courses.component';
 import { AddCourseComponent } from './add-course/add-course.component';
+import { DeleteCourseComponent } from './delete-course/delete-course.component';
+import { UpdateCourseComponent } from './update-course/update-course.component';
 
 
 @NgModule({
   declarations: [
     ListCoursesComponent,
-    AddCourseComponent
+    AddCourseComponent,
+    DeleteCourseComponent,
+    UpdateCourseComponent
   ],
   imports: [
     CommonModule,

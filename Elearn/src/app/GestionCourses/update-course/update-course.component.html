@@ -5,9 +5,8 @@
     <h4 >Picture</h4>
     <div class="mt-6">
         <div>
-            <input type="file" accept="image/*" (change)="onSelectFile()"  formControlName="picture" class="form-control" name="picture"  id="picture">
-            <!-- <img [src]="imgURL" *ngIf="imgURL"> -->
-          </div>
+            <input type="text"formControlName="picture" class="form-control" name="picture"  id="picture">
+        </div>
         <div [ngStyle]="{'color':'red'}"  *ngIf="picture?.errors?.['required'] && picture?.touched"> Picture is required</div>
 
     </div >
@@ -33,7 +32,7 @@
   </div >
 </div>
 
-<button class ="btn btn-cercle" type="submit" class="btn btn-primary" (click)="Add()" >Ajouter</button>
+<button type="submit" class="btn btn-primary" (click)="update()">update </button>
   </div>
 </form>
 

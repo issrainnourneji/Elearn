@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="613af148-96b2-4b41-a7cc-3f350ac591d8" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/add-course/add-course.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/add-course/add-course.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/add-course/add-course.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/add-course/add-course.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/add-course/add-course.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/add-course/add-course.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/gestion-courses-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/gestion-courses-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/gestion-courses.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/gestion-courses.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/list-courses/list-courses.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Elearn/src/app/GestionCourses/list-courses/list-courses.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Elearn/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Elearn/src/app/app.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,36 +46,21 @@
       </map>
     </option>
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
   <component name="ProjectId" id="2EtY3CS8nM0hT6hzxnmlkSLs5CD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/starinfo/Desktop/Elearning/Elearn/learnspring",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="tn.esprit.spring.khaddem.entities" />
@@ -92,19 +79,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="learnspring" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="learnspring" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -227,7 +201,15 @@
       <workItem from="1703670789015" duration="103000" />
       <workItem from="1703672831278" duration="3184000" />
       <workItem from="1704878348630" duration="537000" />
-      <workItem from="1704879031061" duration="3642000" />
+      <workItem from="1704879031061" duration="4589000" />
+      <workItem from="1704987950108" duration="47000" />
+      <workItem from="1705501498272" duration="169000" />
+      <workItem from="1705501700954" duration="160000" />
+      <workItem from="1705501994318" duration="81000" />
+      <workItem from="1705502102256" duration="15000" />
+      <workItem from="1705502224699" duration="113000" />
+      <workItem from="1705672212270" duration="217000" />
+      <workItem from="1708518191464" duration="247000" />
     </task>
     <servers />
   </component>
@@ -244,6 +226,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
